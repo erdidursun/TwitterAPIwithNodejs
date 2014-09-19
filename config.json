@@ -1,0 +1,14 @@
+{
+"keys" :
+       {
+	    "twitterConsumerKey":"ReYYja11F78yIZqD2Z7cDTwGO",   
+	    "twitterConsumerSecret" :"YUIuLG7lVMH292UoIIbKI21BsZ33O9XyCTVRD8O50CDZuJVefZ"
+       },
+"urls" : 
+       {
+	    "AccessToken":"https://twitter.com/oauth/authorize?oauth_token=",	   
+	    "Verification":"https://api.twitter.com/1.1/account/verify_credentials.json",
+	    "StatusUpdate":"https://api.twitter.com/1.1/statuses/update.json"
+       },
+"domain":"http://localhost:1213"
+}

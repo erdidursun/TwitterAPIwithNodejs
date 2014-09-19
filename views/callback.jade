@@ -1,0 +1,21 @@
+html
+ head
+  title #{title}
+  style
+   include style.css 
+ body
+  #rightside   
+   #profile
+    img.image(src='#{profile_image}')
+    p.name #{Name}
+  #center
+   p
+   input(type='text', name='username')
+   p
+   button#btn(
+		     type='submit'
+		     value='Gönder'
+		     name='tweet?op=sendTweet' 	    
+		   
+	  )
+  #leftside 	

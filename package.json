@@ -1,0 +1,12 @@
+{ 
+"scripts": {
+    "start": "node twitter.js"
+  },
+ "dependencies" : {
+    "express": "~4.7.4",
+    "express-session": "~1.7.2",   
+    "jade": "~1.5.0",
+    "oauth":"~0.9.12",
+    "querystring":"0.2.0",
+  }
+}
